@@ -1,0 +1,20 @@
+header{
+    background-color: red;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    display: inline-block;
+}

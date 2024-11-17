@@ -13,3 +13,33 @@ nav{
 nav ul li{
     display: inline-block;
 }
+
+figure{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorPelis{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.contenedorPelis article{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+
+}
+
+.contenedorActores{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorActores h2{
+    color: white;
+}

@@ -1,0 +1,15 @@
+header{
+    background-color: red;
+}
+
+ul{
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    display: inline-block;
+}
