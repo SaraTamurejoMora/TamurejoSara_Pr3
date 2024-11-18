@@ -25,21 +25,51 @@ figure{
     width: 100%;
     justify-content: space-around;
 }
+.contenedorPelis h3{
+    background-color: red;
+}
 
 
 .contenedorPelis article{
     display: flex;
     flex-direction: column;
     width: 15%;
-
 }
+
+.descripcion{
+    overflow: hidden;
+    height: 200px;
+}
+
+.genero{
+    background-color: red;
+}
+
 
 .contenedorActores{
     background-color: black;
-    display: flex;
-    flex-direction: row;
 }
 
 .contenedorActores h2{
+    display: flex;
+    justify-content: center;
     color: white;
+
+}
+
+.actores{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    color: white;
+    justify-content: space-around;
+}
+.actores article p{
+    display: flex;
+    justify-content: center;
+}
+
+.actores article img{
+    border-radius: 50%;
+    
 }
