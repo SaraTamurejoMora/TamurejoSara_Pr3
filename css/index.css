@@ -33,7 +33,8 @@ figure{
 .contenedorPelis article{
     display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 13%;
+
 }
 
 .descripcion{
@@ -73,3 +74,51 @@ figure{
     border-radius: 50%;
     
 }
+
+.contenedor_Festivales_Series{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.festivales{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: palevioletred;
+    align-items: center;
+}
+
+.festivales h2{
+    color: red;
+}
+
+.festivales h3{
+    display: flex;
+    justify-content: center;
+}
+
+.festivales article img{
+    width: 300px;
+}
+
+
+/*
+
+.festivales article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+.series{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+}
+*/
