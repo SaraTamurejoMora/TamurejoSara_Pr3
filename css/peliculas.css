@@ -36,3 +36,19 @@ nav ul li a:hover{
     color: rgb(46, 0, 125);
     transform: scale(1,1);
 }
+
+.todasPelis{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.todasPelis article{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.todasPelis article img{
+    width: 200px;
+}
