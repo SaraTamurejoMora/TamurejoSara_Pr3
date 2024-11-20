@@ -1,3 +1,7 @@
+*{
+    border: 2px solid black;
+}
+
 header{
     background-color: red;
 }
@@ -29,12 +33,10 @@ figure{
     background-color: red;
 }
 
-
 .contenedorPelis article{
     display: flex;
     flex-direction: column;
     width: 13%;
-
 }
 
 .descripcion{
@@ -46,7 +48,6 @@ figure{
     background-color: red;
 }
 
-
 .contenedorActores{
     background-color: black;
 }
@@ -55,7 +56,6 @@ figure{
     display: flex;
     justify-content: center;
     color: white;
-
 }
 
 .actores{
@@ -72,26 +72,23 @@ figure{
 
 .actores article img{
     border-radius: 50%;
-    
 }
 
 .contenedor_Festivales_Series{
     display: flex;
     flex-direction: row;
-
-
 }
 
 .festivales{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    background-color: palevioletred;
+    width: 35%;
+    background-color: pink;
     align-items: center;
 }
 
 .festivales h2{
-    color: red;
+    color: palevioletred;
 }
 
 .festivales h3{
@@ -103,22 +100,46 @@ figure{
     width: 300px;
 }
 
-
-/*
-
 .festivales article{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+    margin-bottom: 15px;
+    border: solid black;
+    background-color: salmon;
+}
+.series{
+    width: 100%;
+
 }
 
+.series h2{
+    width: 100%;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
 
-
-.series{
+.contenedorSeries{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 60%;
+    align-content: center;
+    justify-content: space-around;
 }
-*/
+
+.contenedorSeries article{
+    padding: 7px;
+    margin: 7px;
+
+}
+
+.contenedorSeries article img{
+    width: 230px;
+}
+
+.contenedorSeries article h3{
+    background-color: red;
+    color: white;
+
+}
+
+
+
