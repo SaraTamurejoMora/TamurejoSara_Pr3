@@ -1,8 +1,10 @@
+
 *{
     border: 2px solid black;
 }
 header{
-    background-color: rgb(183, 148, 255);   
+    background-color: rgb(183, 148, 255);
+    
 }
 
 .logo{
@@ -22,6 +24,7 @@ nav ul li{
     display: inline-block;
     margin: 5px;
     text-transform: uppercase;
+    
 }
 
 nav ul li a{
