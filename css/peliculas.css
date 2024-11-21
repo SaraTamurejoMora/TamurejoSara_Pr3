@@ -37,6 +37,11 @@ nav ul li a:hover{
     transform: scale(1,1);
 }
 
+.tituloPeliculas{
+    margin-left: 30px;
+    color: rgb(110, 0, 161);
+}
+
 .todasPelis{
     display: flex;
     flex-direction: column;
@@ -47,8 +52,27 @@ nav ul li a:hover{
     display: flex;
     flex-direction: row;
     margin: 10px;
+    justify-content: space-around;
 }
 
 .todasPelis article img{
     width: 200px;
+}
+
+.contenidoPelis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.todasPelis article:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+.todasPelis h2{
+    color: white;
+    background-color: rgb(163, 25, 255);
+
 }
