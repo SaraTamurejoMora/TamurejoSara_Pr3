@@ -206,5 +206,26 @@ nav ul li a:hover{
     justify-content: center;
 }
 
+footer{
+    display: flex;
+    flex-direction: row;
+
+}
+.redSocial img{
+    width: 20px;
+}
+
+.redSocial, address, .copyright{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 30%;
+}
+
+address, .redSocial{
+    margin-top: 15px;
+}
+
+
 
 

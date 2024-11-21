@@ -37,8 +37,7 @@ nav ul li a:hover{
 
 .contenedorFormulario{
     font-size: 18px;
-    display: flex;
-    justify-content: center;
+    display: ;
 }
 .tituloFormulario{
     background-color: rgb(120, 39, 196);
