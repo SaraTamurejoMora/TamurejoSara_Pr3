@@ -34,3 +34,71 @@ nav ul li a:hover{
     color: rgb(46, 0, 125);
     transform: scale(1,1);
 }
+
+.contenedorFormulario{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.tituloFormulario{
+    background-color: rgb(120, 39, 196);
+    width: 50%;
+    margin-left: 20px;
+    color: white;
+}
+
+.tituloRegistro{
+    background-color: rgb(108, 69, 145);
+    color: white;
+}
+
+.tituloEncuesta{
+    background-color: rgb(108, 69, 145);
+    color: white;
+}
+
+.contenedorRegistro{
+    background-color: rgb(157, 104, 192);
+    color: white;
+
+}
+
+.contenedorRegistro label, input{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.nombre, .correo, .fechaNacimiento, .comentario{
+    background-color: rgb(196, 130, 240);
+}
+
+.terminos{
+    display: flex;
+    background-color: rgb(196, 130, 240);
+}
+
+.contenedorEncuesta{
+    background-color: rgb(157, 104, 192);
+    color: white;
+}
+
+.encuesta{
+    display: flex;
+    background-color: rgb(196, 130, 240);
+    margin-bottom: 5px;
+}
+
+.frecuencia{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(196, 130, 240);
+    
+}
+
+.botonEnviar{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    
+    
+}
