@@ -74,5 +74,6 @@ nav ul li a:hover{
 .todasSeries h2{
     color: white;
     background-color: rgb(163, 25, 255);
+    width: 50%;
 
 }
