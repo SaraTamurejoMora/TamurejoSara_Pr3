@@ -38,8 +38,11 @@ nav ul li a:hover{
 }
 
 .tituloSeries{
-    margin-left: 30px;
-    color: rgb(110, 0, 161);
+    background-color: rgb(120, 39, 196);
+    width: 15%;
+    margin-left: 20px;
+    color: white;
+    padding-left: 10px;
 }
 
 .todasSeries{
@@ -76,4 +79,29 @@ nav ul li a:hover{
     background-color: rgb(163, 25, 255);
     width: 50%;
 
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(183, 148, 255);
+    color: white;
+
+
+}
+.redSocial img{
+    width: 20px;
+}
+
+.redSocial, address, .copyright{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 30%;
+}
+
+address, .redSocial{
+    margin-top: 15px;
 }

@@ -37,13 +37,15 @@ nav ul li a:hover{
 
 .contenedorFormulario{
     font-size: 18px;
-    display: ;
+    display: flex;
+    justify-content: center;
 }
 .tituloFormulario{
     background-color: rgb(120, 39, 196);
     width: 50%;
     margin-left: 20px;
     color: white;
+    padding-left: 10px;
 }
 
 .tituloRegistro{
@@ -100,4 +102,30 @@ nav ul li a:hover{
     margin: 10px;
     
     
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(183, 148, 255);
+    color: white;
+
+
+}
+.redSocial img{
+    width: 20px;
+}
+
+.redSocial, address, .copyright{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 30%;
+}
+
+address, .redSocial{
+    margin-top: 15px;
 }
