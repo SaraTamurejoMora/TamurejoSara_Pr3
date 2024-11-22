@@ -1,6 +1,8 @@
+/*
 *{
     border: 2px solid black;
 }
+    */
 header{
     background-color: rgb(183, 148, 255);   
 }
@@ -42,7 +44,7 @@ nav ul li a:hover{
 }
 .tituloFormulario{
     background-color: rgb(120, 39, 196);
-    width: 50%;
+    width: 40%;
     margin-left: 20px;
     color: white;
     padding-left: 10px;
