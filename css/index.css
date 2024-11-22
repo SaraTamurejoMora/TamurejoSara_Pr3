@@ -92,6 +92,7 @@ nav ul li a:hover{
 
 .contenedorActores{
     background-color: black;
+    padding: 8px;
 }
 
 .contenedorActores h2{
@@ -114,6 +115,7 @@ nav ul li a:hover{
 
 .actores article img{
     border-radius: 50%;
+    width: 100px;
 }
 
 .contenedor_Festivales_Series{
