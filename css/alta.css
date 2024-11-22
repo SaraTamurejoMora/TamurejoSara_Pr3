@@ -46,6 +46,10 @@ nav ul li a:hover{
     margin-left: 20px;
     color: white;
     padding-left: 10px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+
 }
 
 .tituloRegistro{

@@ -62,7 +62,10 @@ nav ul li a:hover{
     color: white;
     background-color: blueviolet;
     width: 50%;
+}
 
+.contenidoDetalleSerie p{
+    font-size: 18px;
 }
 
 

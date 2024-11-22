@@ -48,7 +48,8 @@ nav ul li a:hover{
     margin-left: 20px;
     color: white;
     padding-left: 10px;
-    font-size: 30px;
+    
+    text-transform: uppercase;
 
 }
 
@@ -99,6 +100,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     color: white;
+    text-transform: uppercase;
 }
 
 .actores{
@@ -134,11 +136,13 @@ nav ul li a:hover{
 .festivales h2{
     color: rgb(255, 255, 255);
     font-size: 30px;
+    text-transform: uppercase;
 }
 
 .festivales h3{
     display: flex;
     justify-content: center;
+    
 }
 
 .festivales img{
@@ -169,6 +173,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     font-size: 30px;
+    text-transform: uppercase;
 
 }
 
@@ -217,11 +222,13 @@ nav ul li a:hover{
 
 .contenedorMasVisto{
     background-color: black;
-    color: white;    
+    color: white;   
+    padding: 8px; 
 }
 .contenedorMasVisto h2{
     display: flex;
     justify-content: center;
+    text-transform: uppercase;
 }
 
 .masVisto {
@@ -230,12 +237,17 @@ nav ul li a:hover{
     align-content: center;
     color: white;
     justify-content: space-around;
+    padding: 8px;
 }
 
 .masVisto article img{
     width: 150px;
 }
-
+.masVisto article img:hover{
+    width: 150px;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
 
 .masVisto article p{
     display: flex;

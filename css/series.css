@@ -45,6 +45,9 @@ nav ul li a:hover{
     margin-left: 20px;
     color: white;
     padding-left: 10px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
 }
 
 .todasSeries{
@@ -87,9 +90,11 @@ nav ul li a:hover{
     background-color: rgb(163, 25, 255);
     width: 50%;
     padding: 8px;
-
 }
 
+.todasSeries{
+    font-size: 18px;
+}
 
 footer{
     display: flex;
