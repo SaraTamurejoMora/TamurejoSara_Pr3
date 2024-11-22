@@ -54,6 +54,8 @@ nav ul li a:hover{
     justify-content: center;
     margin: 30px;
     background-color: rgb(215, 177, 250);
+    padding: 8px;
+    color: white;
 }
 
 .contenidoDetalleSerie h2{

@@ -1,6 +1,8 @@
+/*
 *{
     border: 2px solid black;
 }
+    */
 header{
     background-color: rgb(183, 148, 255);
     
@@ -56,7 +58,12 @@ nav ul li a:hover{
     flex-direction: row;
     margin: 10px;
     justify-content: space-around;
+    padding: 10px;
+    border: 3px solid rgb(42, 0, 121);
+    background-color: rgb(230, 203, 255);
+    
 }
+
 
 .todasSeries article img{
     width: 200px;
@@ -67,17 +74,19 @@ nav ul li a:hover{
     flex-direction: column;
     justify-content: center;
     width: 70%;
+    padding: 8px;
 }
 
 .todasSeries article:hover{
     transition: transform 0.3s ease;
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .todasSeries h2{
     color: white;
     background-color: rgb(163, 25, 255);
     width: 50%;
+    padding: 8px;
 
 }
 
